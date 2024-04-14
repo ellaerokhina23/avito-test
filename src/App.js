@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MoviesList from "./components/MoviesList";
-import MovieDetail from "./components/MoviePage";
+import MoviesList from "./components/MoviesList/MoviesList";
+import MovieDetail from "./components/MoviePage/MoviePage";
 import "./App.css";
+import "./components/MoviePage/MoviePage.css";
 
 function App() {
   return (
